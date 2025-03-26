@@ -1,0 +1,27 @@
+{
+  "name": "vita-hub",
+  "version": "1.0.0",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "npm run dev -w frontend",
+    "backend": "npm run start:dev -w backend",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/config": "^4.0.1",
+    "@supabase/supabase-js": "^2.49.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.16"
+  }
+}
