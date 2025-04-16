@@ -27,6 +27,7 @@
     "@nestjs/platform-express": "^11.0.1",
     "@nestjs/typeorm": "^11.0.0",
     "@supabase/supabase-js": "^2.49.4",
+    "backend": "file:",
     "bcrypt": "^5.1.1",
     "mysql2": "^3.14.0",
     "passport": "^0.7.0",
